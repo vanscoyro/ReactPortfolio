@@ -4,6 +4,33 @@ import Fade from "react-reveal";
 
 class Header extends Component {
   render() {
+    
+    let config = {
+      num: [4, 7],
+      rps: 0.1,
+      radius: [5, 40],
+      life: [1.5, 3],
+      v: [2, 3],
+      tha: [-40, 40],
+      // body: "./img/icon.png", // Whether to render pictures
+      rotate: [0, 20],
+      alpha: [0.6, 0],
+      scale: [.05, 0.1],
+      position: "all", // all or center or {x:1,y:1,width:100,height:100}
+      color: ["random", "#ff0000"],
+      cross: "bround", // cross or bround
+      random: null,  // or null,
+      g: 2,    // gravity
+      f: [0, 3], // force
+      onParticleUpdate: (ctx, particle) => {
+          ctx.beginPath();
+          ctx.rect(particle.p.x, particle.p.y, particle.radius * 2, particle.radius * 2);
+          ctx.fillStyle = particle.color;
+          ctx.fill();
+          ctx.closePath();
+      }
+    };
+
     if (!this.props.data) return null;
 
     const project = this.props.data.project;
@@ -13,7 +40,7 @@ class Header extends Component {
 
     return (
       <header id="home">
-        <ParticlesBg type="circle" bg={true} />
+        <ParticlesBg config={config} type="custom" bg={true} />
 
         <nav id="nav-wrap">
           <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
