@@ -1,0 +1,153 @@
+{
+  "main": {
+    "name":"Robert VanScoy",
+    "description":"The React Website is Generated from a Template. I have customized the code to tailor my design choices and motifs.",
+    "image":"profilepic.jpg",
+    "bio":"Down to earth inquisitive developer that is willing and able to learn new technologies. Always open to new methods of thinking and able to work well with others.",
+    "contactmessage":"If you would like to reach out to me, please send me an email.",
+    "email": "rvans003@fiu.edu",
+    "phone": "305-519-5421",
+    "github":"https://github.com/vanscoyro",
+    "project":"https://github.com/vanscoyro/ReactPortfolio",
+    "address":{
+      "street":"14835 Sw 90 ter",
+      "city":"Miami",
+      "state":"Florida",
+      "zip": "33196"
+    },
+    "website": "https://github.com/vanscoyro",
+    "resumedownload":"https://www.mediafire.com/file/6ed1sgbc4ws3xj7/RobertVanScoy.pdf/file",
+    "social":[
+      {
+        "name":"facebook",
+        "url":"https://www.facebook.com/robert.vanscoy.1",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/robert-vanscoy-846a11186/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"https://www.instagram.com/robakabob/?hl=en",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"https://www.instagram.com/robakabob/?hl=en",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Check out some of my experience. Work and school!",
+    "education":[
+      {
+        "school":"Florida International University",
+        "degree":"Bachelors in Information Technology",
+        "graduated":"July 2019",
+        "description":"Throughout my college career, I was able to work on various coding projects and collaborative efforts that taught me how to work well with others. I also was a member of Alternative Breaks with which I did community service in Biloxi Mississippi over my Spring Break."
+      },
+      {
+        "school":"University of Miami Coding Bootcamp",
+        "degree":"Certificate of Completion",
+        "graduated":"May 2021",
+        "description":"This coding bootcamp exposed me to the tools of being a Full-Stack Web Developer. From tackling new and challenging languages, to working together with other developers, this course gave me alot of real-world coding experience that I would not have had if I chose to focus on independent study."
+      }
+   
+    ],
+    "work":[
+      {
+        "company":"Publix Supermarkets",
+        "title":"Customer Service Staff",
+        "years":"March 2012 - Present",
+        "description":"Publix has been instrumental for me professional and personal development. Starting at the age of 16,I constantly was exposed to new people and assisting them with unique issues. Publix has taught me how to handle customers and make sure they leave the store happy. I worked part time most of my career with Publix and from 2019 - the beginning of 2021 I was Full Time. I got 40 hour work week experience and learned alot about pacing myself especially on days with 10 hour shifts. Being I was Customer Service Staff, I got alot of experience with Money Services, Front End Management, and Daily Cash Tender Procedures."
+      },
+      {
+        "company":"Assembly Legal",
+        "title":"Level 1 Technical Support",
+        "years":"March 2021 - Present",
+        "description":"My position with Assembly Legal is completly remote. It is a full time position where I spend the work-day supporting a software called Trialworks. This is a case management software for Law Firms that is integral to their day-to-day operations. There are typically two types of customers : Hosted and On-Premise. The difference between the two is Hosted are being hosted by Microsoft on Azure servers. For those customers, our support relates to how they access their remote workstation and ensuring their servers are operational and their profiles are correct. I have been recieving alot of exposure to IT management and have been working with Active Directory, SQL Management, and Drive Mapping / Printer management. I am on track to continue my training and be on the support queue for the other two Softwares supported by Assembly Legal : Needles and Neos."
+      }
+    ],
+    "skills":[
+      {
+        "name":"Node.js",
+        "level":"70%"
+      },
+      {
+        "name":"MySql",
+        "level":"65%"
+      },
+      {
+        "name":"Mongo",
+        "level":"60%"
+      },
+      {
+        "name":"CSS",
+        "level":"80%"
+      },
+      {
+        "name":"ReactJs",
+        "level":"40%"
+      },
+      {
+        "name":"HTML",
+        "level":"80%"
+      },
+      {
+        "name":"JAVA",
+        "level":"75%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Note Taker App",
+        "category":"Web App deployed to Heroku that uses Express.",
+        "image":"noteTaker.gif",
+        "url":"https://note-taker-robert.herokuapp.com/",
+        "repo":"https://github.com/vanscoyro/NoteTakerApp"
+      },
+      {
+        "title":"Employee Tracker",
+        "category":"CLI Application that allows Managers to manage employees.",
+        "image":"employee_tracker.gif",
+        "url":"https://youtu.be/B9lgCpPGvjQm",
+        "repo":"https://github.com/vanscoyro/EmployeeManagement"
+      },
+      {
+        "title":"Password Generator",
+        "category":"Allows the user to generate a random password based on preferred criteria",
+        "image":"password_generator.jpg",
+        "url":"https://vanscoyro.github.io/password_generator/",
+        "repo":"https://github.com/vanscoyro/password_generator"
+      },
+      {
+        "title":"Readme Generator",
+        "category":"CLI program that generates a Readme for Github projects",
+        "image":"readmeGenerator.gif",
+        "url":"youtu.be/bytmrz6kcii",
+        "repo":"https://github.com/vanscoyro/ReadmeGenerator"
+      },
+      {
+        "title":"Weather Dashboard",
+        "category":"This website allows users to find the current and five day weather forcast for a city they enter in the Search Box",
+        "image":"weatherDashboard.jpg",
+        "url":"https://vanscoyro.github.io/Weather_Dashboard/",
+        "repo":"https://github.com/vanscoyro/Weather_Dashboard"
+      },
+      {
+        "title":"Team Profile Generator",
+        "category":"CLI that generates custom HTML page based on user input",
+        "image":"teamProfile.gif",
+        "url":"https://youtu.be/ohYUFBFRaIY",
+        "repo":"https://github.com/vanscoyro/Team_Profile_Generator"
+      }
+      
+    
+    ]
+  }
+}
