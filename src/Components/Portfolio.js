@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Zmage from "react-zmage";
-import Fade from "react-reveal";
+import Reveal from 'react-reveal/Reveal';
 
 let id = 0;
 class Portfolio extends Component {
@@ -13,10 +13,14 @@ class Portfolio extends Component {
       return (
         <div key={id++} className="portfolio-item">
           <div className="item-wrap">
-            <Zmage alt={projects.title} src={projectImage} />
-            <div style={{ textAlign: "center" }}>{projects.title}</div>
-            <div style={{ textAlign: "center" }}><a href={projects.url}>Link to Live Site/Demo Video</a></div>
-            <div style={{ textAlign: "center" }}><a href={projects.repo}>Link to Repo</a></div>
+          
+          <Reveal duration={3000}><div style={{ textAlign: "center", background:"#333333" }}>{projects.title}</div></Reveal>
+          <Reveal duration={3000}><Zmage alt={projects.title} src={projectImage} /></Reveal>
+          <Reveal duration={3000}><div style={{ textAlign: "center", background:"#333333" }}><a href={projects.url}>Link to Live Site/Demo Video</a></div></Reveal>
+          <Reveal duration={3000}><div style={{ textAlign: "center", background:"#333333"}}><a href={projects.repo}>Link to Repo</a></div></Reveal>
+          <Reveal duration={3000}><div style={{ background:"#333333", borderBottom: "1px solid", marginBottom: "48px", paddingBottom: "24px" }}></div></Reveal>
+
+           
           </div>
         </div>
       );
@@ -24,20 +28,17 @@ class Portfolio extends Component {
 
     return (
       <section id="portfolio">
-        <Fade left duration={1000} distance="40px">
+       
           <div className="row">
             <div className="twelve columns collapsed">
               <h1>Check Out Some of My Projects.</h1>
 
-              <div style={{height: "auto", margin: "0 auto", width : "50%"}}
-                id="portfolio-wrapper"
-                
-              >
-                <Fade right >{projects}</Fade>
+              <div style={{height: "auto", margin: "0 auto", width : "50%"}}id="portfolio-wrapper">
+                {projects}
               </div>
             </div>
           </div>
-        </Fade>
+       
       </section>
     );
   }
